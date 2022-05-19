@@ -1,0 +1,103 @@
+.title {
+    font-size: 35px;
+    background: rgb(12, 1, 53);
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 30px;
+    margin-left: 290px;
+    margin-right: 290px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(3, 38, 116), rgb(128, 0, 100));
+}
+
+.paragraphe {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 1, 53);
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.btn {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 25px;
+    margin-left: 20px;
+    color: rgb(12, 1, 53);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btnS {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background: rgb(255, 255, 255);
+    margin-right: 0px;
+    padding: 25px;
+    padding-right: 35px;
+    margin-left: 20px;
+    width: 120px;
+    text-align: center;
+    color: rgb(12, 1, 53);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+    top: -20px;
+    right: 10px;
+}
+
+.btnR {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    margin-left: 3%;
+    color: rgb(12, 1, 53);
+    border-radius: 10px;
+    margin-top: 2.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background: rgb(255, 255, 255);
+    margin-right: 0px;
+    padding: 25px;
+    padding-right: 35px;
+    margin-left: 20px;
+    width: 120px;
+    text-align: center;
+    color: rgb(12, 1, 53);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#grille {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
